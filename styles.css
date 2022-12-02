@@ -48,6 +48,16 @@
     justify-self: right;
 }
 
+i.fa-solid {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white;
+}
+
 a.logo {
     position: relative;
     font-family: "Abril Fatface", sans-serif;
@@ -61,6 +71,11 @@ a.logo {
     color: black;
 }
 
+.navbar i:hover {
+    background: #ddd;
+    color: black;
+}
+
 /*big image*/
 
 .hook {
@@ -69,16 +84,27 @@ a.logo {
     width: auto\9; /* ie8 */
 }
 
-.image-text {
+.image-title {
     position: absolute;
-    bottom: 70%;
+    bottom: 55%;
+    left: 2%;
+    color: White;
+    font-family: Postoni,garamond,serif;
+    line-height: 1.1;
+    font-size: 3.5rem;
+    width: 40%;
+}
+
+.name {
+    position: absolute;
+    font-family: Franklin,arial,sans-serif;
+    font-size: 1rem;
+    bottom: 50%;
     left: 2%;
     color: White;
 }
 
-.container {
-    text-align: center;
-}
+/*Main Body*/
 
 main {
     --type-token: consumptionEditorial.body-core;
@@ -102,5 +128,61 @@ p {
 }
 
 footer {
-
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #333;
+    color: White;
+    display: grid;
+    grid: 1fr / 82% 8% 10%;
 }
+
+.left-foot {
+    display: grid;
+    grid: 5vh 1vh / 1fr;
+}
+
+a.foot-title {
+    font-weight: bold;
+    color: white;
+    float: left;
+    clear: left;
+}
+
+a.foot-link {
+    color: white;
+    float: left;
+    clear: left;
+}
+
+.mid-foot {
+    margin: 0px;
+    font-family: ProximaNova, helvetica, sans-serif;
+    line-height: 1.31em;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.right-foot {
+    margin: 0px;
+    font-family: ProximaNova, helvetica, sans-serif;
+    line-height: 1.31em;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+
+a.logo-foot {
+    position: relative;
+    color: white;
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 40px;
+    top: -20px;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
